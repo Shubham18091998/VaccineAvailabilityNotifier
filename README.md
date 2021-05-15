@@ -2,7 +2,8 @@
 
 How to run this script to get notification for Covid Vaccine availability:-
 
-Step-1:Clone the github repository on your local system using the following command which you can type in GitBash.
+Step-1:Clone the github repository on your local system using the following command in GitBash.
+
 git clone https://github.com/Shubham18091998/VaccineAvailabilityNotifier.git
 
 Step-2:Install below dependencies using command prompt

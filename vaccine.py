@@ -67,7 +67,7 @@ def vaccine_availability():
             mixer.music.load('sound/notification_sound.mp3')
             mixer.music.play()
             notification.notify(title="Vaccine",
-                                message="Vaccine available",
+                                message="Vaccine slot available at your pincode.",
                                 app_icon=None,
                                 timeout=10,
                                 toast=False)

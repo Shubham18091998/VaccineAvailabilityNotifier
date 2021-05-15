@@ -73,6 +73,7 @@ def vaccine_availability():
                                 toast=False)
 
             print("Search Completed!")
+            return 0
 
         dt = datetime.now() + timedelta(minutes=5)
 

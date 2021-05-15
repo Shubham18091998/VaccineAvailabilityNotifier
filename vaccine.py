@@ -8,8 +8,8 @@ from plyer import notification
 
 print("Starting search for Covid vaccine slots!")
 
-age = 45
-pincodes = ["226005"]
+age = int(input("Please input your age:"))
+pincodes = [input("Please input your pincode:")]
 print_flag = "Y"
 num_days = 10
 

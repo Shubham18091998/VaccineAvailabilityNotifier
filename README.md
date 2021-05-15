@@ -6,7 +6,7 @@ Step-1:Clone the github repository on your local system using the following comm
 
 git clone https://github.com/Shubham18091998/VaccineAvailabilityNotifier.git
 
-Step-2:Install below dependencies using command prompt
+Step-2:Install below dependencies using command prompt.
 
 pip install requests
 
@@ -15,6 +15,6 @@ pip install plyer
 pip install requests pygame
 
 
-Step-3:Update the age and pincode 
+Step-3:Update the age and pincode in the script vaccine.py
 
 Step-4:Leave the script running on your local system. This script will ping the CoWIN website for every 5 mins and will send desktop notification if slot available

@@ -15,6 +15,6 @@ pip install plyer
 pip install requests pygame
 
 
-Step-3:Update the age and pincode in the script vaccine.py
+Step-3:Enter the age and pincode.
 
 Step-4:Run the script vaccine.py on your local system. This script will automatically ping the CoWIN website for every 5 mins(you can adjust the time in the script by editing thid line dt = datetime.now() + timedelta(minutes=5)) and will send desktop notification if slot available

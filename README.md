@@ -17,4 +17,4 @@ pip install requests pygame
 
 Step-3:Update the age and pincode in the script vaccine.py
 
-Step-4:Leave the script running on your local system. This script will ping the CoWIN website for every 5 mins and will send desktop notification if slot available
+Step-4:Run the script vaccine.py on your local system. This script will ping the CoWIN website for every 5 mins and will send desktop notification if slot available

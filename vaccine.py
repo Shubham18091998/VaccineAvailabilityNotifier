@@ -45,7 +45,7 @@ def vaccine_availability():
                                         print("\t", center["name"])
                                         print("\t", center["block_name"])
                                         print("\t Price: ", center["fee_type"])
-                                        print("\t Availablity : ", session["available_capacity"])
+                                        print("\t Availability : ", session["available_capacity"])
 
                                         if session["vaccine"] != '':
                                             print("\t Vaccine type: ", session["vaccine"])

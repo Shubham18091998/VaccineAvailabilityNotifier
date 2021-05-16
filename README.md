@@ -14,9 +14,9 @@ pip install requests pygame
 
 pip install plyer
 
-pip install pyton-gobject
+pip install gobject
 
-pip install libnotify-bin
+sudo apt-get install libnotify-bin (For Linux)
 
 Step-3:Enter the age and pincode.
 

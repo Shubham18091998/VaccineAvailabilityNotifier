@@ -10,10 +10,17 @@ Step-2:Install below dependencies using command prompt.
 
 pip install requests
 
-pip install plyer
-
 pip install requests pygame
 
+For Windows:
+
+pip install plyer
+
+For Linux:
+
+pip install pyton-gobject
+
+pip install libnotify-bin
 
 Step-3:Enter the age and pincode.
 

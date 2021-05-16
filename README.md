@@ -7,19 +7,14 @@ Step-1:Clone the github repository on your local system using the following comm
 git clone https://github.com/Shubham18091998/VaccineAvailabilityNotifier.git
 
 Step-2:Install below dependencies using command prompt.
-
 pip install requests
-
 pip install requests pygame
 
 For Windows:
-
 pip install plyer
 
 For Linux:
-
 pip install pyton-gobject
-
 pip install libnotify-bin
 
 Step-3:Enter the age and pincode.

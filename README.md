@@ -1,6 +1,6 @@
 # VaccineAvailabilityNotifier
 
-How to run this script to get notification for Covid Vaccine availability(For Windows):-
+How to run this script to get notification for Covid Vaccine availability:-
 
 Step-1:Clone the github repository on your local system using the following command in GitBash.
 
@@ -17,4 +17,4 @@ pip install requests pygame
 
 Step-3:Enter the age and pincode.
 
-Step-4:Run the script vaccine.py on your local system. This script will automatically ping the CoWIN website for every 5 mins(you can adjust the time in the script by editing thid line dt = datetime.now() + timedelta(minutes=5)) and will send desktop notification if slot available
+Step-4:Run the script vaccine.py(vaccine_linux.py for Linix machine) on your local system. This script will automatically ping the CoWIN website for every 5 mins(you can adjust the time in the script by editing thid line dt = datetime.now() + timedelta(minutes=5)) and will send desktop notification if slot available

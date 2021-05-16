@@ -3,8 +3,10 @@ import requests
 import time
 from datetime import datetime, timedelta
 import json
+import platform
 from pygame import mixer
 from plyer import notification
+from gi.repository import Notify
 
 print("Starting search for Covid vaccine slots!")
 
@@ -63,17 +65,28 @@ def vaccine_availability():
         if counter == 0:
             print("No Vaccination slot available!")
         else:
-            mixer.init()
-            mixer.music.load('sound/notification_sound.mp3')
-            mixer.music.play()
-            notification.notify(title="Vaccine",
-                                message="Vaccine slot available at your pincode.",
-                                app_icon=None,
-                                timeout=10,
-                                toast=False)
+            if platform.system() == "Windows":
+                mixer.init()
+                mixer.music.load('sound/notification_sound.mp3')
+                mixer.music.play()
+                notification.notify(title="Vaccine",
+                                    message="Vaccine slot available at your pincode.",
+                                    app_icon=None,
+                                    timeout=10,
+                                    toast=False)
 
-            print("Search Completed!")
-            return 0
+                print("Search Completed!")
+                return 0
+            else if platform.system() == "Linux":
+                mixer.init()
+                mixer.music.load('sound/drip.ogg')
+                mixer.music.play()
+                Notify.init("Vaccine Notifier")
+                Notify.Notification.new(summary="Vaccine",body="Vaccine slot is available").show()
+                print("Search Completed!")
+                return 0
+                
+           
 
         dt = datetime.now() + timedelta(minutes=5)
 

@@ -77,7 +77,7 @@ def vaccine_availability():
 
                 print("Search Completed!")
                 return 0
-            else if platform.system() == "Linux":
+            elif platform.system() == "Linux":
                 mixer.init()
                 mixer.music.load('sound/drip.ogg')
                 mixer.music.play()

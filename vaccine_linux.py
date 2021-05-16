@@ -4,7 +4,6 @@ import time
 from datetime import datetime, timedelta
 import json
 from pygame import mixer
-from plyer import notification
 from gi.repository import Notify
 
 print("Starting search for Covid vaccine slots!")

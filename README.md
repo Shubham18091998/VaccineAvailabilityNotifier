@@ -14,7 +14,7 @@ pip install requests pygame
 
 pip install plyer
 
-pip install gobject
+pip install gobject PyGObject
 
 sudo apt-get install libnotify-bin (For Linux)
 

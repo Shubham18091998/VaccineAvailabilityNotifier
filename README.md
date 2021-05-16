@@ -8,11 +8,11 @@ git clone https://github.com/Shubham18091998/VaccineAvailabilityNotifier.git
 
 Step-2:Install below dependencies using command prompt.
 
-pip install requests
+pip install requests (For Windows and Linix)
 
-pip install requests pygame
+pip install requests pygame (For Windows and Linux)
 
-pip install plyer
+pip install plyer (For Windows)
 
 sudo apt-get install python-gobject (For Linux)
 

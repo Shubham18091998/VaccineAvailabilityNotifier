@@ -6,7 +6,7 @@ Step-1:Clone the github repository on your local system using the following comm
 
 git clone https://github.com/Shubham18091998/VaccineAvailabilityNotifier.git
 
-Step-2:Install below dependencies using command prompt.
+Step-2:Install below dependencies using command prompt/terminal.
 
 pip install requests (For Windows and Linix)
 
